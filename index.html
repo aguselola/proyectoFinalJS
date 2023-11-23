@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <img  src="./img/Imagen1.png" alt="Logo perla estetica y relax" width="50px" > 
+    <h1>PERLA ESTÉTICA Y RELAX</h1>
+    
+    
+    <h1>Bienvenido!</h1> 
+    <h1>Asignación de Turnos</h1>
+    <div>A continuación, ingrese su nombre y el servicio que se va a realizar para que se le asigne un turno:</div>
+
+
+    <form id="turnoForm">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" required><br>
+
+        <label for="servicio">Servicio:</label>
+        <select id="servicio" required>
+            <option value="masajes">Masajes</option>
+            <option value="limpieza de cutis">Limpieza de cutis</option>
+            <option value="dermaplaning">Dermaplaning</option>
+            <option value="depilación láser">Depilación láser</option>
+
+        </select><br>
+        
+        <label for="hora">Hora de Turno:</label>
+        <select id="hora" required>
+            
+        </select>
+        <br>
+
+        <button type="button" id="asignarTurno">Asignar Turno</button>
+    </form>
+
+    
+    <div id="turnosAsignados">
+        <h2>Turnos asignados:</h2>
+    </div>
+
+    <h2>Buscar Turnos</h2>
+    <input type="text" id="buscarInput" placeholder="Nombre del cliente">
+    <button id="buscarTurno">Buscar</button>
+    <div id="resultadosBusqueda"></div>
+
+    <script src="./main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>

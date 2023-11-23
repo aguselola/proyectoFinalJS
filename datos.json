@@ -1,0 +1,12 @@
+[
+    {"turno" : 10, "hora" : "10:00 AM"},
+    {"turno" : 11, "hora" : "11:00 AM"},
+    {"turno" : 12, "hora" : "12:00 PM"},
+    {"turno" : 13, "hora" : "01:00 PM"},
+    {"turno" : 14, "hora" : "02:00 PM"},
+    {"turno" : 15, "hora" : "03:00 PM"},
+    {"turno" : 16, "hora" : "04:00 PM"},
+    {"turno" : 17, "hora" : "05:00 PM"},
+    {"turno" : 18, "hora" : "06:00 PM"},
+    {"turno" : 19, "hora" : "07:00 PM"}
+]
